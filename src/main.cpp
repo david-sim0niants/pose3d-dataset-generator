@@ -5,6 +5,7 @@
 
 
 #include "window.h"
+#include "pose3d.h"
 
 
 int main()
@@ -26,6 +27,7 @@ int main()
         glfwGetWindowSize(window, &width, &height);
         glViewport(0, 0, width, height);
         
+
         
 
         glfwSwapBuffers(window);
